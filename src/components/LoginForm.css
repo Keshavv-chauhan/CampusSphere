@@ -1,0 +1,107 @@
+/* LoginForm.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #f8fafc, #e0f7fa);
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.login-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a237e;
+}
+
+.login-subtitle {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #5c6bc0;
+  margin-top: 0.25rem;
+}
+
+.input-label {
+  font-size: 0.85rem;
+  color: #37474f;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.input-field:focus {
+  border-color: #3f51b5;
+  box-shadow: 0 0 0 2px rgba(63, 81, 181, 0.2);
+  outline: none;
+}
+
+.quick-login {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.quick-btn {
+  font-size: 0.85rem;
+  color: #1e88e5;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.quick-btn:hover {
+  color: #0d47a1;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.65rem;
+  background-color: #1a73e8;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0b57d0;
+}
+
+.submit-btn:disabled {
+  background-color: #90caf9;
+  cursor: not-allowed;
+}
+.footer-text {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #546e7a;
+  margin-top: 1.5rem;
+}
